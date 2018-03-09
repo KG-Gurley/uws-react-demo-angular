@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: beige; }
+
+* {
+  box-sizing: border-box;
+  padding: 0; }
+
+.app-messenger {
+  display: flex;
+  flex-direction: column; }
+  .app-messenger .header {
+    background-color: cadetblue; }
+  .app-messenger .main {
+    display: flex;
+    height: 100%;
+    overflow: hidden; }
+    .app-messenger .main .sidebar-left {
+      background-color: coral;
+      width: 200px; }
+    .app-messenger .main .sidebar-right {
+      background: darkkhaki;
+      width: 300px; }
+    .app-messenger .main .content {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      overflow: hidden;
+      background: darkgoldenrod; }
+
+/*# sourceMappingURL=app.css.map */

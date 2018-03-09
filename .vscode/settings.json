@@ -1,0 +1,7 @@
+{
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}

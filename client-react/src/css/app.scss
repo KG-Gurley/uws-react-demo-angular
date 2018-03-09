@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background-color: beige;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.app-messenger {
+    display: flex;
+    flex-direction: column;
+    .header {
+        background-color: cadetblue;
+    }
+    .main {
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+        .sidebar-left {
+            background-color: coral;
+            width: 200px;
+        }
+        .sidebar-right {
+            background: darkkhaki;
+            width: 300px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+            background: darkgoldenrod;
+        }
+    }
+}
